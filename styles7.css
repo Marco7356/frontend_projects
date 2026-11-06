@@ -1,0 +1,60 @@
+header {
+    background-color:blue;
+    text-align: center;
+    color:white;
+    padding: 20px;
+}
+body{
+    background-color: aqua;
+}
+nav,ul,a{
+    color: black;
+}
+nav,ul,lu{
+    margin: 0 15px;
+}
+nav,ul{
+    background-color: blueviolet;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    list-style: georgian;
+}
+.hero{
+    background-image: url('https://resources.americaneagle.com/aecom-blobs/images/default-source/blog-images/understanding-web-development-frameworks-og-image.jpg?sfvrsn=d289bf2d_1');
+    text-align: center;
+    color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.flex-container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.flex-item{
+    background-color: rgb(148, 160, 69);
+    padding: 20px;
+    text-align: center;
+    width: 20%;
+}
+.Grid{ 
+    display:grid;
+    grid-template-columns: 1fr;
+    width: 100px;
+    margin: auto;
+    padding-top: 80px;
+
+}
+.Grid-item{
+    background-color: rgb(148, 160, 69);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+.flex-container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
